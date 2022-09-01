@@ -1,0 +1,17 @@
+@use "styles/colors" as *;
+
+.container {
+  display: flex;
+  align-items: center;
+  color: $color-white;
+}
+
+.logoIcon {
+  color: $color-blue-ribbon;
+  margin-right: 16px;
+}
+
+.appName {
+  font-size: 18px;
+  line-height: 21px;
+}

@@ -1,0 +1,13 @@
+@use "styles/colors" as *;
+@use "styles/fonts" as *;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-family-roboto;
+  background-color: $color-mirage;
+}
